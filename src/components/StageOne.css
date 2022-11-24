@@ -1,0 +1,96 @@
+.game-step-1 {
+  width: 34rem;
+  height: 32rem;
+  background-image: url(../images/bg-pentagon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 13vh;
+  position: relative;
+}
+@media (max-width: 48em) {
+  .game-step-1 {
+    margin-top: 5vh;
+  }
+}
+@media (max-width: 26.57em) {
+  .game-step-1 {
+    background-position: top;
+    margin-top: 10vh;
+  }
+}
+
+.game-element-bg {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-element-bg:hover {
+  box-shadow: 0 0 0 20px hsla(0deg, 0%, 100%, 0.05),
+    0 0 0 40px rgba(255, 255, 255, 0.03), 0 0 0 60px rgba(255, 255, 255, 0.01);
+  scale: 1.1;
+}
+.game-element-bg:hover .element-img {
+  transform: rotate(30deg);
+}
+
+.lizard-bg {
+  background-image: linear-gradient(#834fe3, #8c5de5);
+  border-bottom: 0.6rem solid #5c35a7;
+  bottom: -14%;
+  left: 0;
+}
+
+.spock-bg {
+  background-image: linear-gradient(#40b9ce, #52bed1);
+  border-bottom: 0.6rem solid #2b8eac;
+  top: 16%;
+  left: -15%;
+}
+
+.paper-bg {
+  background-image: linear-gradient(#4865f4, #5671f5);
+  border-bottom: 0.6rem solid #2945c2;
+  top: -17%;
+  left: 30%;
+}
+
+.scissors-bg {
+  background-image: linear-gradient(#ec9e0e, #eca922);
+  border-bottom: 0.6rem solid #c76c1b;
+  top: 16%;
+  right: -15%;
+}
+
+.rock-bg {
+  background-image: linear-gradient(#dc2e4e, #dd405d);
+  border-bottom: 0.6rem solid #9f1634;
+  bottom: -14%;
+  left: 60%;
+}
+
+.game-element {
+  width: 11rem;
+  height: 11rem;
+  background-color: white;
+  border-radius: 50%;
+  border-top: 0.6rem solid rgba(128, 128, 128, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 26.57em) {
+  .game-element img {
+    width: 5rem;
+  }
+}
+
+.element-img {
+  transition: all 0.2s;
+}

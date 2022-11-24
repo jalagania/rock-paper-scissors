@@ -1,0 +1,46 @@
+.heading-box {
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+  border: 3px solid #606e85;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading-box img {
+  width: 9rem;
+}
+@media (max-width: 48em) {
+  .heading-box {
+    width: 95%;
+    padding: 1rem 2rem;
+  }
+}
+
+.score-box {
+  padding: 1rem 5rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.score-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2a46c0;
+}
+
+.score {
+  font-size: 4.5rem;
+  color: #3b4363;
+}
+@media (max-width: 48em) {
+  .score {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,90 @@
+.game-element-bg-l {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-element-bg-l img {
+  width: 7rem;
+}
+@media (max-width: 26.57em) {
+  .game-element-bg-l img {
+    width: 6rem;
+  }
+}
+@media (max-width: 26.57em) {
+  .game-element-bg-l {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+.game-element-l {
+  width: 20rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 50%;
+  border-top: 1rem solid rgba(128, 128, 128, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 26.57em) {
+  .game-element-l {
+    width: 14rem;
+    height: 14rem;
+    border-top: 0.8rem solid rgba(128, 128, 128, 0.2);
+  }
+}
+
+.lizard-bg-l {
+  background-image: linear-gradient(#834fe3, #8c5de5);
+  border-bottom: 1rem solid #5c35a7;
+}
+@media (max-width: 26.57em) {
+  .lizard-bg-l {
+    border-bottom: 0.8rem solid #5c35a7;
+  }
+}
+
+.spock-bg-l {
+  background-image: linear-gradient(#40b9ce, #52bed1);
+  border-bottom: 1rem solid #2b8eac;
+}
+@media (max-width: 26.57em) {
+  .spock-bg-l {
+    border-bottom: 0.8rem solid #2b8eac;
+  }
+}
+
+.paper-bg-l {
+  background-image: linear-gradient(#4865f4, #5671f5);
+  border-bottom: 1rem solid #2945c2;
+}
+@media (max-width: 26.57em) {
+  .paper-bg-l {
+    border-bottom: 0.8rem solid #2945c2;
+  }
+}
+
+.scissors-bg-l {
+  background-image: linear-gradient(#ec9e0e, #eca922);
+  border-bottom: 1rem solid #c76c1b;
+}
+@media (max-width: 26.57em) {
+  .scissors-bg-l {
+    border-bottom: 0.8rem solid #c76c1b;
+  }
+}
+
+.rock-bg-l {
+  background-image: linear-gradient(#dc2e4e, #dd405d);
+  border-bottom: 1rem solid #9f1634;
+}
+@media (max-width: 26.57em) {
+  .rock-bg-l {
+    border-bottom: 0.8rem solid #9f1634;
+  }
+}

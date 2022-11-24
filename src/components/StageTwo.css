@@ -1,0 +1,107 @@
+.game-step-2 {
+  margin-top: 10vh;
+  position: relative;
+  display: flex;
+  gap: 7rem;
+}
+@media (max-width: 48em) {
+  .game-step-2 {
+    margin-top: 3rem;
+    gap: 6rem;
+  }
+}
+@media (max-width: 26.57em) {
+  .game-step-2 {
+    margin-top: 3vh;
+    justify-content: center;
+  }
+}
+
+.user-box,
+.pc-box {
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+@media (max-width: 26.57em) {
+  .user-box,
+  .pc-box {
+    width: 18rem;
+    position: relative;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+}
+
+.text-picked_user,
+.text-picked_pc,
+.result-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.text-picked_user,
+.text-picked_pc {
+  font-size: 2.5rem;
+  z-index: 10;
+}
+@media (max-width: 26.57em) {
+  .text-picked_user,
+  .text-picked_pc {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .text-picked_user,
+  .text-picked_pc {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 60%;
+  }
+}
+
+.result-box {
+  align-self: center;
+  z-index: 10;
+}
+@media (max-width: 26.57em) {
+  .result-box {
+    position: absolute;
+    bottom: -10%;
+  }
+}
+
+.result-text {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 48em) {
+  .result-text {
+    font-size: 3.6rem;
+  }
+}
+
+.btn-play {
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: #2a46c0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-play:hover {
+  color: #dc2e4e;
+}
+.btn-play:active {
+  transform: scale(0.98);
+}
