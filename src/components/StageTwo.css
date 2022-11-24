@@ -28,7 +28,7 @@
 @media (max-width: 26.57em) {
   .user-box,
   .pc-box {
-    width: 18rem;
+    width: 20rem;
     position: relative;
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -52,15 +52,15 @@
 @media (max-width: 26.57em) {
   .text-picked_user,
   .text-picked_pc {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 60%;
   }
 }
 @media (max-width: 23.44em) {
   .text-picked_user,
   .text-picked_pc {
     font-size: 1.5rem;
-    position: absolute;
-    top: 60%;
   }
 }
 

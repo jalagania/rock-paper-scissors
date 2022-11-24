@@ -26,7 +26,6 @@ img {
 }
 
 body {
-  height: 100vh;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-image: radial-gradient(circle at top, #1f3756, #141638);
   background-repeat: no-repeat;
