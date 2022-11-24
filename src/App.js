@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Modal from "./components/Modal";
 import Header from "./components/Header";
@@ -11,7 +11,6 @@ import spock from "./images/icon-spock.svg";
 import paper from "./images/icon-paper.svg";
 import scissors from "./images/icon-scissors.svg";
 import rock from "./images/icon-rock.svg";
-import { useEffect } from "react";
 
 const marks = [
   { name: "lizard", img: lizard },
